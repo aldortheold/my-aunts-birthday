@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --stroke-one: #a21b5f;
+    --stroke-two: #71063c;
+    --border-one: var(--stroke-one) 3px solid;
+    --border-two: var(--stroke-two) 3px solid;
+    --bg-one: hsla(0, 0%, 100%, 0.3);
+}
+
+body {
+    background-image: url("../public/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: var(--stroke-one);
+}
+
+.clock {
+    background-color: var(--bg-one);
+    font-family: "Lobster", sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    box-shadow: var(--stroke-one) 5px 5px 5px;
+    border: var(--border-one);
+    border-radius: 40px;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    padding: 0.8rem 0;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+.clock-p {
+    font-family: "Lobster", sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 2rem auto 0;
+    width: 80%;
+}
+
+.side-img {
+    width: 5rem;
+    margin: -1rem -15rem -4rem 0rem;
+}
+
+.greeting {
+    font-family: "Rubik", sans-serif;
+    color: var(--stroke-two);
+}
+
+.greeting p {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+.peek {
+    font-family: "Roboto Slab", sans-serif;
+    background-color: var(--bg-one);
+    font-weight: bold;
+    color: var(--stroke-one);
+    width: 70%;
+    max-width: 350px;
+    border-radius: 20px;
+    border: var(--border-one);
+    margin: auto;
+    padding: 1.4rem 2rem;
+}
+
+.peek p {
+    margin: 0 0 1.4rem;
+    font-size: 1.2rem;
+}
+
+.peek button {
+    background-color: hsla(227, 100%, 80%, 0.4);
+    color: var(--stroke-two);
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.7rem 4rem;
+    border-radius: 15px;
+    border: var(--border-two);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.peek button:hover {
+    background-color: hsla(227, 100%, 85%, 0.4);
+}
+
+.show {
+    display: flex;
+    background-color: hsla(270, 76%, 77%, 0.8);
+    width: 250px;
+    height: 160px;
+    margin: 1rem auto 1.5rem;
+    border: var(--border-one);
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.show img {
+    height: 90%;
+    margin: auto;
+}
+
+.language {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.language select {
+    font-family: "Roboto Slab", sans-serif;
+    background-color: var(--bg-one);
+    color: var(--stroke-two);
+    font-size: 1.2rem;
+    margin: 0 auto 0.4rem 0.4rem;
+    border: var(--border-two);
+    border-radius: 10px;
+    padding: 0.3rem 0.5rem;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.language img {
+    height: 2.8rem;
+    margin: 0 0.4rem 0.4rem auto;
+}
+
+hr {
+    height: 2px;
+    margin: 0;
+    border: none;
+    background-color: var(--stroke-two);
+}
