@@ -56,7 +56,7 @@ body {
 }
 
 .greeting p {
-    font-size: 3rem;
+    font-size: 2.6rem;
     margin: 2rem 0;
 }
 
@@ -85,7 +85,7 @@ body {
     font-size: 1.1rem;
     font-weight: bold;
     font-style: italic;
-    padding: 0.7rem 4rem;
+    padding: 0.7rem 2rem;
     border-radius: 15px;
     border: var(--border-two);
     transition: background-color 0.3s ease;
