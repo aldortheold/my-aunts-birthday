@@ -16,7 +16,7 @@ function Timer(props) {
     }, []);
 
     function formatTime(){
-        let days = 31 - time.getDate();
+        let days = 2 - time.getDate();
         let hours = (time.getMinutes() === 0 && time.getSeconds() === 0) ? 24 - time.getHours() : 23 - time.getHours();
         let minutes = time.getSeconds() === 0 ? 60 - time.getMinutes() : 59 - time.getMinutes();
         let seconds = time.getSeconds() === 0 ? 0 : 60 - time.getSeconds();
