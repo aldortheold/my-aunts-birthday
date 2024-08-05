@@ -3,12 +3,14 @@
         "clock": ["Время до", "дня доставки:"],
         "birthday": ["С ДНЁМ", "РОЖДЕНИЯ,", "МАРИША!"],
         "peek": ["Загляни", "в свой подарок!"],
-        "show": ["ПОКАЗАТЬ", "СКРЫТЬ"]
+        "show": ["ПОКАЗАТЬ", "СКРЫТЬ"],
+        "present": "Подарок на месте!"
     },
     {
         "clock": ["Time left before the", "delivery day:"],
         "birthday": ["HAPPY", "BIRTHDAY", "MARISHA!"],
         "peek": ["Sneak peek", "at your present!"],
-        "show": ["SHOW", "HIDE"]
+        "show": ["SHOW", "HIDE"],
+        "present": "The present has arrived!"
     }
 ]
